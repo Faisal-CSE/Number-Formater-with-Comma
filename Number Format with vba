@@ -3,8 +3,6 @@
 dim num 
 num = 5000
 
-res = FormatNumber(num,,, -2)
-
 response.write(customNumberFormat(num)) 
 
 
@@ -20,7 +18,7 @@ end function
 //CSS For anchor tag
  .countlink {
      text-decoration: none ;
-     font-size:20px;
+     font-size:18px;
      color:#007acc;
   }
 .countlink:hover
