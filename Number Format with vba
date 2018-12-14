@@ -1,0 +1,18 @@
+<%
+
+dim num 
+num = 5000
+
+res = FormatNumber(num,,, -2)
+
+response.write(customNumberFormat(num)) 
+
+
+function customNumberFormat(number)
+    getres = FormatNumber(number,,, -1)
+    finalRes = split(getres,".")
+    customNumberFormat = finalRes(0)
+end function 
+
+
+%>
