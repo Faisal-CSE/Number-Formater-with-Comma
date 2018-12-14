@@ -16,3 +16,16 @@ end function
 
 
 %>
+
+//CSS For anchor tag
+ .countlink {
+     text-decoration: none ;
+     font-size:20px;
+     color:#007acc;
+  }
+.countlink:hover
+  {
+    text-decoration:none;
+    color:#4d79ff;
+    cursor:pointer;
+   }
